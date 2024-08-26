@@ -40,6 +40,65 @@ body {
     border-radius: 10px;
 }
 
+.content,
+.author {
+    margin: 24px 0;
+}
+
+.content .category {
+    background-color: var(--background-color);
+    
+    width: 82px;
+    height: 29px;
+    border-radius: 4px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .category p {
+    font-weight: 800;
+    color: var(--gray-950);
+}
+
+.content .date,
+.content .title,
+.content .description {
+    margin-top: 12px;
+}
+
+.content .date,
+.content .title {
+    color: var(--gray-950);
+}
+
+.content .title {
+    font-weight: 800;
+}
+
+.content .description {
+    color: var(--gray-500);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author img {
+    width: 32px;
+    height: 32px;
+}
+
+.author p {
+    font-weight: 800;
+    margin-left: 12px;
+}
+
 .attribution { 
     font-size: 11px; text-align: center; 
     margin-top: 20px;
