@@ -75,6 +75,11 @@ body {
 
 .content .title {
     font-weight: 800;
+    cursor: pointer;
+}
+
+.container .title:hover{
+    color: var(--background-color);
 }
 
 .content .description {
